@@ -20,4 +20,10 @@ public class Car {
     public boolean getAutomaticGearBox() {
         return false;
     }
+    public void setColour(String colour) {
+       this.colour = colour;
+    }
+    public String getColour(){
+       return colour;
+    }
 }
